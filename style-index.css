@@ -1,0 +1,240 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*************************** RESET ***************************/
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,
+abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,
+strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,
+legend,table,caption,tbody,tfoot,thead,tr,th,td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/*************************** RESET ***************************/
+
+
+html, body{
+	background-color:#ffffff;
+  color:#000;
+}
+a {
+	text-decoration: none;
+	color:#000;
+}
+a:visited{
+	color:#000;
+}
+a:hover {
+  color:#666;
+	text-decoration: none;
+}
+a:active{
+	color:#000;
+}
+
+
+.section{
+  position: absolute;
+  padding-top: 40px;
+  padding-left: 50px;
+}
+
+
+
+/*************Top Section**************/
+#top {
+	position:relative;
+	top:0px;
+	width:100%;
+  height: 100%;
+	z-index: 0;
+	overflow: hidden;
+}
+.circle{
+  position: absolute;
+  z-index: 1;
+}
+
+#navi {
+  position: absolute;
+  top:50px;
+  left:50px;
+  text-align: left;
+  z-index: 10;
+}
+
+.logobox{
+  width:100%;
+  height:300px;
+  text-align: center;
+  position: relative;
+  z-index: 5;
+}
+
+/*************About Section**************/
+
+#about{
+  width:100%;
+  background: url(img/about.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	display:block;
+  box-sizing:border-box;
+}
+
+.catchcopy{
+  padding: 115px 12% 0px 12%;
+}
+
+.sentence{
+  padding: 50px 12% 100px 12%;
+}
+
+/*************Product Section**************/
+
+.series{
+  width:100%;
+  position: relative;
+  padding-top: 90px;
+}
+
+.container {
+	font-size:0;
+  padding: 80px 50px 90px 50px;
+  text-align: center;
+}
+
+.productImage{
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.ball{
+  width: 25%;
+  margin-bottom: 24px;
+}
+
+#tento{
+  background-image: url("img/tento.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+#ann{
+  background-image: url("img/ann.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+#bar{
+  background-image: url("img/bar.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.photoFrame{
+  width: 100%;
+  height: 700px;
+  overflow: hidden;
+}
+.photo{
+
+}
+
+.split{
+  position: relative;
+  margin-left: 50px;
+  height: 15px;
+  border-bottom: 1px solid #c8c8c8;
+  text-align: center;
+  clear: both;
+  font-size: 0px;
+}
+.splitImg{
+  margin-top: 0px;
+}
+
+.cover{
+	padding: 17.5px;
+	display:inline-block;
+	vertical-align:top;
+  text-align:center;
+}
+
+
+#news_contents{
+	margin: 80px 150px 100px 150px;
+}
+.news_each{
+	width: 100%;
+	height: 31px;
+	border-bottom: solid 1px #ccc;
+	color: #000;
+	font-size: 11px;
+  line-height: 32px;
+	letter-spacing: 0.19em;
+	font-weight: 300;
+	padding-top: 15px;
+}
+.news_date{
+	margin-right: 30px;
+}
+.news_new{
+	color: #f00;
+}
+
+#map{
+  float: left;
+  margin:80px -70px 0px 150px;
+  width: 600px;
+  height: 300px;
+}
+
+#addressbox{
+  float: left;
+  margin:75px 0px 80px 150px;
+}
+
+.address{
+  font-size: 11px;
+  line-height: 31px;
+	letter-spacing: 0.19em;
+	font-weight: 300;
+}
+
+#footer {
+	position:relative;
+	width:100%;
+  height: 800px;
+	z-index: 0;
+  text-align: center;
+}
+#footer-logobox{
+  padding-top: 120px;
+}
+#footer-sns{
+
+}
+.footer-snsIcon{
+  width: 38px;
+  margin:80px 20px 40px 20px;
+}
+#footer-credit{
+  font-size: 11px;
+  line-height: 3em;
+	letter-spacing: 0.19em;
+	font-weight: 300;
+}
+#footer-credit a{
+  text-decoration: underline;
+}

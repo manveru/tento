@@ -1,0 +1,191 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*************************** RESET ***************************/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+/*************************** RESET ***************************/
+
+html, body {
+	height: 100%;
+	width: 100%;
+	font-family: 'Noto Sans JP', sans-serif;
+	position: relative;
+	-webkit-text-size-adjust: 100%;
+}
+
+/*
+font-family: 'Noto Sans JP', sans-serif;
+font-family: 'Noto Serif JP', serif;
+font-family: 'Barlow Semi Condensed', sans-serif;
+*/
+
+
+#fade {
+	width: 100%;
+	height: 100%;
+	display: none;
+	background-color: #fff;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: 50;
+}
+#contents {
+	display:block;
+	position:relative;
+}
+
+.commonLayout{
+	width:100%;
+	max-width:1280px;
+	box-sizing:border-box;
+	border-left-width:80px;
+	border-right-width:80px;
+	border-style:solid;
+	border-color:rgba(0,0,0,0);
+	margin-left:auto;
+	margin-right:auto;
+}
+.commonMargin{
+	padding-left: 30px;
+	padding-right: 30px;
+	width: 100%;
+	box-sizing: border-box;;
+}
+.commonLeft{
+	width: 300px;
+	float: left;
+}
+.commonRight{
+	width: 100%;
+	float: left;
+	margin-left: -300px;
+}
+
+.Barlow {
+	font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.Serif{
+	font-family: 'Noto Serif JP', serif;
+}
+
+.h_navi{
+	font-size: 11px;
+	letter-spacing:0.2em;
+	line-height: 32px;
+}
+
+.h_section{
+	font-size:11px;
+	letter-spacing:0.25em;
+	line-height: 19px;
+}
+
+.h_aboutTitle{
+	font-size: 24px;
+	letter-spacing:0.2em;
+	line-height: 42px;
+}
+
+.h_aboutText{
+	font-size: 12px;
+	letter-spacing:0.1em;
+	line-height: 21px;
+}
+
+.h_seriesTitle{
+	font-size: 16px;
+	letter-spacing:0.25em;
+	line-height: 28px;
+	margin-bottom: 40px;
+}
+
+.h_seriesText{
+	font-size:12px;
+	letter-spacing:0.25em;
+	line-height: 19px;
+	margin: 0px 25px;
+}
+
+.h_seriesText span{
+	display: inline-block;
+}
+
+.h_productTitleEn{
+	font-size: 12px;
+	letter-spacing:0.25em;
+	line-height: 21px;
+}
+
+.h_productTitleJp{
+	font-size: 9px;
+	letter-spacing:0.25em;
+	line-height: 15px;
+}
+
+.h_taste{
+	font-size: 10px;
+	letter-spacing:0.25em;
+	line-height: 17.5px;
+}
+
+.h_explanation{
+	font-size: 10px;
+	letter-spacing:0.25em;
+	line-height: 17.5px;
+}
+
+
+.btm16 {
+	margin-bottom: 16px;
+}
+.btm50 {
+	margin-bottom: 50px;
+}
+
+
+.w100 {
+	font-weight: 100;
+}
+.w300 {
+	font-weight: 300;
+}
+.w400 {
+	font-weight: 400;
+}
+.w700 {
+	font-weight: 700;
+}
+.valign_middle {
+	display: table-cell;
+	height: 100%;
+	vertical-align: middle;
+}
+.text-center {
+	text-align: center;
+}
+.text-right {
+	text-align: right;
+}
+.text-left {
+	text-align: left;
+}
+.clear {
+	clear: both;
+}
+.disnone {
+	display: none;
+}
+.pointer{
+	cursor:pointer;
+}
