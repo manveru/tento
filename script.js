@@ -78,11 +78,18 @@ function ReLayout() {
 
     //Top
     $('#top').css('height', windowHeight + 'px');
-    $('#navi').css('top', 25 + 'px');
-    $('#navi').css('left', 25 + 'px');
+    $('.navi').css('top', 25 + 'px');
+    $('.link').css('padding-left', 25+'px');
+    $('.link').css('height', 12+'px');
+    $('.link').css('line-height', 12+'px');
+    $('.link').css('margin-bottom', 7+'px');
+    $('.storeLink').css('padding-left', 25+'px');
+    $('.storeLink').css('height', 24+'px');
+    $('.storeLink').css('width', 40+'px');
+    $('.storeLink').css('line-height', 12+'px');
+    $('.link').css('margin-bottom', 7+'px');
     $('.h_navi').css('font-size', 7 + 'px');
     $('.h_navi').css('letter-spacing', 0.15 + 'em');
-    $('.h_navi').css('line-height', 15 + 'px');
     $('#top-logobox').css('padding-top', windowHeight / 2 - 70 + 'px');
 
     //About
@@ -134,7 +141,7 @@ function ReLayout() {
     $('.cover').css('width', (windowWidth - 25 * n - 10 * n * 2) / n + 'px');
 
     //news
-    $('#news_contents').css('margin', 50 + 'px' + ' ' + 20 + 'px' + ' ' + 50 + 'px' + ' ' + 20 + 'px');
+    $('#news_contents').css('margin', 50 + 'px ' + 20 + 'px ' + 50 + 'px ' + 20 + 'px');
     $('.news_each').css('font-size', 7 + 'px');
     $('.news_each').css('line-height', 16 + 'px');
     $('.news_each').css('height', 20 + 'px');
@@ -144,15 +151,21 @@ function ReLayout() {
     $('#map').css('height', 150 + 'px');
     $('#map').css('margin', 70 + 'px ' + 40 + 'px ' + 30 + 'px ' + 40 + 'px');
     $('#map').css('float', 'none');
-    $('#addressbox').css('margin', 10 + 'px' + ' ' + 40 + 'px' + ' ' + 30 + 'px' + ' ' + 40 + 'px');
+    $('#addressbox').css('margin', 10 + 'px' + ' ' + 40 + 'px' + ' ' + 50 + 'px' + ' ' + 40 + 'px');
     $('.address').css('font-size', 7 + 'px');
     $('.address').css('line-height', 16 + 'px');
+
+    //bannar
+    $('#bannar').css('width', windowWidth-80+'px');
+    $('#bannar').css('height', 150+'px');
+    $('#bannar_left').css('width', windowWidth-80-150 + 'px');
+    $('#bannar_right').css('width', 150 + 'px');
 
     //footer
     $('#footer').css('height', 400 + 'px');
     $('#footer-logobox').css('padding-top', 100 + 'px');
     $('.footer-snsIcon').css('width', 19 + 'px');
-    $('.footer-snsIcon').css('margin', 40 + 'px ' + 10 + 'px ' + 20 + 'px ' + 10 + 'px');
+    $('.footer-snsIcon').css('margin', 40 + 'px ' + 0 + 'px ' + 20 + 'px ' + 0 + 'px');
     $('#footer-credit').css('font-size', 6 + 'px');
 
   }
@@ -166,11 +179,18 @@ function ReLayout() {
 
     //Top
     $('#top').css('height', windowHeight + 'px');
-    $('#navi').css('top', 50 + 'px');
-    $('#navi').css('left', 50 + 'px');
+    $('.navi').css('top', 50 + 'px');
+    $('.link').css('padding-left', 50+'px');
+    $('.link').css('height', 19+'px');
+    $('.link').css('line-height', 19+'px');
+    $('.link').css('margin-bottom', 13+'px');
+    $('.storeLink').css('padding-left', 50+'px');
+    $('.storeLink').css('height', 19+'px');
+    $('.storeLink').css('width', 120+'px');
+    $('.storeLink').css('line-height', 19+'px');
+    $('.link').css('margin-bottom', 13+'px');
     $('.h_navi').css('font-size', 11 + 'px');
     $('.h_navi').css('letter-spacing', 0.25 + 'em');
-    $('.h_navi').css('line-height', 19 + 'px');
     $('#top-logobox').css('padding-top', windowHeight / 2 - 150 + 'px');
 
     //About
@@ -232,15 +252,27 @@ function ReLayout() {
     $('#map').css('height', 300 + 'px');
     $('#map').css('margin', 80 + 'px ' + -70 + 'px ' + 0 + 'px ' + 150 + 'px');
     $('#map').css('float', 'left');
-    $('#addressbox').css('margin', 75 + 'px ' + 0 + 'px ' + 80 + 'px ' + 150 + 'px');
+    $('#addressbox').css('margin', 75 + 'px ' + 0 + 'px ' + 120 + 'px ' + 150 + 'px');
     $('.address').css('font-size', 11 + 'px');
     $('.address').css('line-height', 31 + 'px');
+
+    //bannar
+    if(windowWidth-300-300>380){
+      $('#bannar').css('width', windowWidth-300+'px');
+      $('#bannar').css('height', 350+'px');
+      $('#bannar_left').css('width', windowWidth-300-380 + 'px');
+    }else{
+      $('#bannar').css('width', 380+300+'px');
+      $('#bannar').css('height', 350+'px');
+      $('#bannar_left').css('width', 300 + 'px');
+    }
+    $('#bannar_right').css('width', 380 + 'px');
 
     //footer
     $('#footer').css('height', 800 + 'px');
     $('#footer-logobox').css('padding-top', 120 + 'px');
     $('.footer-snsIcon').css('width', 38 + 'px');
-    $('.footer-snsIcon').css('margin', 80 + 'px ' + 20 + 'px ' + 40 + 'px ' + 20 + 'px');
+    $('.footer-snsIcon').css('margin', 80 + 'px ' + 0 + 'px ' + 40 + 'px ' + 0 + 'px');
     $('#footer-credit').css('font-size', 11 + 'px');
 
     //photo
