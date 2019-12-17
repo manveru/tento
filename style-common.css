@@ -115,6 +115,12 @@ font-family: 'Barlow Semi Condensed', sans-serif;
 	line-height: 19px;
 	margin: 0px 25px;
 }
+.h_seriesText_en{
+	font-size:12px;
+	letter-spacing:0.12em;
+	line-height: 19px;
+	margin: 0px 25px;
+}
 
 .h_seriesText span{
 	display: inline-block;
@@ -141,6 +147,11 @@ font-family: 'Barlow Semi Condensed', sans-serif;
 .h_explanation{
 	font-size: 10px;
 	letter-spacing:0.25em;
+	line-height: 17.5px;
+}
+.h_explanation_en{
+	font-size: 10px;
+	letter-spacing:0.12em;
 	line-height: 17.5px;
 }
 

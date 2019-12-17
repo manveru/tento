@@ -87,6 +87,9 @@ function ReLayout() {
     $('.storeLink').css('height', 24+'px');
     $('.storeLink').css('width', 40+'px');
     $('.storeLink').css('line-height', 12+'px');
+    $('.storeLink').css('margin-bottom', 19+'px');
+    $('.language').css('margin-left', 25+'px');
+    $('.language').css('padding', 0+'px '+0+'px '+0+'px '+1+'px');
     $('.link').css('margin-bottom', 7+'px');
     $('.h_navi').css('font-size', 7 + 'px');
     $('.h_navi').css('letter-spacing', 0.15 + 'em');
@@ -111,6 +114,8 @@ function ReLayout() {
     $('.h_seriesTitle').css('margin-bottom', 30 + 'px');
     $('.h_seriesText').css('font-size', 9 + 'px');
     $('.h_seriesText').css('line-height', 14 + 'px');
+    $('.h_seriesText_en').css('font-size', 9 + 'px');
+    $('.h_seriesText_en').css('line-height', 14 + 'px');
     $('.container').css('padding', 30 + 'px ' + 25 + 'px');
     $('.container').css('text-align', 'left');
     $('.cover').css('padding', 10 + 'px ' + 10 + 'px ' + 15 + 'px ' + 10 + 'px');
@@ -123,6 +128,8 @@ function ReLayout() {
     $('.h_taste').css('line-height', 14 + 'px');
     $('.h_explanation').css('font-size', 8 + 'px');
     $('.h_explanation').css('line-height', 12 + 'px');
+    $('.h_explanation_en').css('font-size', 8 + 'px');
+    $('.h_explanation_en').css('line-height', 12 + 'px');
 
     $('.productImage').css('margin-bottom', 20 + 'px');
     $('.ball').css('margin-bottom', 20 + 'px');
@@ -154,6 +161,8 @@ function ReLayout() {
     $('#addressbox').css('margin', 10 + 'px' + ' ' + 40 + 'px' + ' ' + 50 + 'px' + ' ' + 40 + 'px');
     $('.address').css('font-size', 7 + 'px');
     $('.address').css('line-height', 16 + 'px');
+    $('.address_en').css('font-size', 7 + 'px');
+    $('.address_en').css('line-height', 16 + 'px');
 
     //bannar
     $('#bannar').css('width', windowWidth-80+'px');
@@ -188,6 +197,9 @@ function ReLayout() {
     $('.storeLink').css('height', 19+'px');
     $('.storeLink').css('width', 120+'px');
     $('.storeLink').css('line-height', 19+'px');
+    $('.storeLink').css('margin-bottom', 32+'px');
+    $('.language').css('margin-left', 50+'px');
+    $('.language').css('padding', 1+'px '+0+'px '+1+'px '+3+'px');
     $('.link').css('margin-bottom', 13+'px');
     $('.h_navi').css('font-size', 11 + 'px');
     $('.h_navi').css('letter-spacing', 0.25 + 'em');
@@ -212,6 +224,8 @@ function ReLayout() {
     $('.h_seriesTitle').css('margin-bottom', 40 + 'px');
     $('.h_seriesText').css('font-size', 12 + 'px');
     $('.h_seriesText').css('line-height', 19 + 'px');
+    $('.h_seriesText_en').css('font-size', 12 + 'px');
+    $('.h_seriesText_en').css('line-height', 19 + 'px');
     $('.container').css('padding', 80 + 'px ' + 50 + 'px '+ 90 + 'px '+ 50 + 'px');
     $('.container').css('text-align', 'center');
     $('.cover').css('padding', 17.5 + 'px');
@@ -224,6 +238,8 @@ function ReLayout() {
     $('.h_taste').css('line-height', 17.5 + 'px');
     $('.h_explanation').css('font-size', 10 + 'px');
     $('.h_explanation').css('line-height', 17.5 + 'px');
+    $('.h_explanation_en').css('font-size', 10 + 'px');
+    $('.h_explanation_en').css('line-height', 17.5 + 'px');
 
     $('.productImage').css('margin-bottom', 50 + 'px');
     $('.ball').css('margin-bottom', 25 + '%');
@@ -255,6 +271,8 @@ function ReLayout() {
     $('#addressbox').css('margin', 75 + 'px ' + 0 + 'px ' + 120 + 'px ' + 150 + 'px');
     $('.address').css('font-size', 11 + 'px');
     $('.address').css('line-height', 31 + 'px');
+    $('.address_en').css('font-size', 11 + 'px');
+    $('.address_en').css('line-height', 31 + 'px');
 
     //bannar
     if(windowWidth-300-300>380){

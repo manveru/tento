@@ -40,7 +40,6 @@ a:active{
 a.storeLink {
 	text-decoration: none;
 	color:#fff;
-
 }
 a.storeLink:visited{
 	color:#fff;
@@ -50,6 +49,22 @@ a.storeLink:hover {
 	text-decoration: none;
 }
 a.storeLink:active{
+	color:#fff;
+}
+
+a.language {
+	text-decoration: none;
+	color:#000;
+}
+a.language:visited{
+	color:#000;
+}
+a.language:hover {
+  color:#fff;
+	text-decoration: none;
+  background-color: #000;
+}
+a.language:active{
 	color:#fff;
 }
 
@@ -103,9 +118,14 @@ a.storeLink:active{
   padding-left: 50px;
   display: block;
   line-height: 19px;
-  margin-bottom: 13px;
+  margin-bottom: 32px;
   width: 120px;
   height: 38px;
+}
+.language{
+  margin-left: 50px;
+  border: solid 1px #000;
+  padding: 1px 0px 1px 3px;
 }
 
 
@@ -218,6 +238,9 @@ a.storeLink:active{
 	font-weight: 300;
 	padding-top: 15px;
 }
+.news_each a{
+  text-decoration: underline;
+}
 .news_date{
 	margin-right: 30px;
 }
@@ -241,6 +264,12 @@ a.storeLink:active{
   font-size: 11px;
   line-height: 31px;
 	letter-spacing: 0.19em;
+	font-weight: 300;
+}
+.address_en{
+  font-size: 11px;
+  line-height: 31px;
+	letter-spacing: 0.12em;
 	font-weight: 300;
 }
 
